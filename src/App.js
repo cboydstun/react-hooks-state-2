@@ -8,9 +8,9 @@ export default function App() {
     return (
         <div>
             <h1>Hey from app</h1>
-            {/* <CounterWithHooks />
+            <ClassCounter />
+            <CounterWithHooks />
             <TextDisplay />
-            <ClassCounter /> */}
             <EffectHook name="Clarissa" />
         </div>
     )
