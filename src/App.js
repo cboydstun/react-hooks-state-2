@@ -1,6 +1,7 @@
 import CounterWithHooks from './components/CounterWithHooks'
 import TextDisplay from './components/TextDisplay'
 import ClassCounter from './components/ClassCounter'
+import EffectHook from './components/EffectHook'
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
             <CounterWithHooks />
             <TextDisplay />
             <ClassCounter />
+            <EffectHook />
         </div>
     )
 }
